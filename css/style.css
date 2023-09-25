@@ -22,7 +22,6 @@ body {
   font-size: 22pt;
 }
 
-
 .emoji p {
   order: 3;
   font-size: 14pt;
@@ -42,7 +41,6 @@ body {
   order: 4;
 }
 
-
 .icon {
   font-size: 4rem;
   order: 1;
@@ -50,7 +48,6 @@ body {
   padding: 10px;
   margin: 0 auto;
 }
-
 
 h1 {
   font-weight: bolder;
@@ -85,3 +82,4 @@ h1 {
 .emoji:nth-child(4) {
   grid-area: leaf;
 }
+
