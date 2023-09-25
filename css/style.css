@@ -1,0 +1,85 @@
+
+    body {
+        padding: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    
+    h1 {
+        font-weight: bolder;
+        font-size: 26pt;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .emojis {
+        display: grid;
+        gap: 15px;
+        margin-top: 15px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+        "smile beer"
+        "lol leaf";
+    }
+
+    .emoji:nth-child(1){
+        grid-area: smile;
+    }
+    
+    .emoji:nth-child(2){
+        grid-area: beer;
+    }
+    
+    .emoji:nth-child(3){
+        grid-area: lol;
+    }
+    
+    .emoji:nth-child(4){
+        grid-area: leaf;
+    }
+
+    .emoji {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        height: 100% auto;
+    }
+
+
+    .emoji h2{
+        order: 2;
+        font-weight: bold;
+        font-size: 22pt;
+    }
+      
+    .icon {
+        order: 1;
+        align-self: center;
+        padding: 10px;
+        font-size: 50px;
+        margin: 0 auto;
+  
+      }
+
+      .emoji p {
+        order: 3;
+        font-size: 14pt;
+        text-align: left;
+        display: flex;
+        padding-top: 20px;
+        border-top: 2px solid grey;
+        padding-bottom: 10px;
+   
+      }
+
+    .emoji a {
+        order: 4;
+        background-color: rgb(107, 1, 156);
+        color: white;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 15px;
+    }
