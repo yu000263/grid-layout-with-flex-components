@@ -38,7 +38,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 100% auto;
+  height: auto;
 }
 
 .emoji h2 {
